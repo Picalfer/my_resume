@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap');
+
+* {}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F2FADB;
+    color: #333;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.resume-container {
+    max-width: 54%;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-top: 12vh;
+    position: relative;
+}
+
+#title {
+    width: 100%;
+    height: 20vh;
+    position: relative;
+    background-color: #E14631;
+}
+
+.icon-link {
+    width: 20px;
+    transform: translateY(20%);
+}
+
+#avatar {
+    position: absolute;
+    left: 4%;
+    top: -20px;
+    height: calc(100% + 40px);
+    width: 22%;
+    background-image: url('res/avatar.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#title-text {
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: left;
+}
+
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 2.2px;
+    color: white;
+    font-weight: 500;
+    font-family: "Russo One", sans-serif;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 23px;
+    color: #2c2b2b;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: monospace;
+}
+
+#containers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    padding: 2%;
+    padding-left: 4%;
+    font-size: 15px;
+    color: #333;
+}
+
+.left {
+    background-color: #2c2b2b;
+    color: white;
+    border-bottom-left-radius: 10px;
+    width: 40%;
+}
+
+.right {
+    padding: 2%;
+}
+
+li {
+    margin-top: 4px;
+}
+
+.divide-h {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container h3 {
+    color: #E14631;
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-family: "Russo One", sans-serif;
+    font-style: normal;
+}
+
+.container ul {
+    padding-left: 20px;
+}
+
+.left a {
+    color: #ffa690;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.container a:hover {
+    color: #E14631;
+}
+
+.right a:hover {
+    color: #e62929;
+}
+
+.company {
+    font-weight: 700;
+    display: inline-block;
+}
+
+.dates {
+    font-weight: 700;
+}
+
+.education div {
+    font-weight: 700;
+}
+
+.color-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.color-button {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: #868686 solid 1px;
+    display: none;
+}
+
+#button1 {
+    background: linear-gradient(135deg, red, yellow);
+}
+
+#button2 {
+    background: linear-gradient(135deg, blue, purple);
+}
+
+#button3 {
+    background: linear-gradient(135deg, rgb(255, 85, 0), rgb(65, 65, 32));
+}
+
+#button4 {
+    background: linear-gradient(135deg, rgb(67, 255, 15), rgb(0, 0, 0));
+}
+
+.icon {
+    margin-right: 10px;
+    width: 23px;
+    transform: translateY(20%);
+}
+
+.large-icon {
+    display: block;
+    width: 40px;
+}
+
+.work-item {
+    background-color: #edecec;
+    padding: 2%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.job {
+    font-weight: 800;
+    font-style: normal;
+    margin-top: 0;
+}
+
+.company-link {
+    color: black;
+    text-decoration: none;
+}
+
+.company-link:hover {
+    color: #f42307;
+}
+
+@media screen and (max-width: 768px) {}
+
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vh;
+}
+
+.project-name {
+    display: inline-block;
+    margin: 0vh;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.git-icon {
+    display: inline-block;
+    width: 10%;
+}
+
+.divide-v {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project {
+    position: relative;
+    background-color: #ffedeb;
+    border: #e9d5d2 solid 1px;
+    width: 30%;
+    border-radius: 10px;
+    min-height: 20vh;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.skills {
+    font-weight: 700;
+    font-family: monospace, sans-serif;
+    text-align: left;
+    display: block;
+    min-height: 45%;
+}
+
+.git-link {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #edecec;
+    text-decoration: none;
+    color: #2c2b2b;
+    padding: 2px;
+    border-radius: 5px;
+    border: #c2a6c8 solid 1px;
+    width: 80%;
+    text-align: center;
+}
+
+.git-link:hover {
+    background-color: #f8dafe;
+    transition: 0.5s;
+}

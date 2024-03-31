@@ -1,29 +1,215 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
+
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link type="image/x-icon" href="images/icon.png" rel="shortcut icon">
-	<link type="Image/x-icon" href="images/icon.png" rel="icon">
 	<title>Артур Кожемякин</title>
-	<style type="text/css">
-		body {
-			background: #F2FADB;
-		}
-	
-		img {
-			width: 55%;
-			margin: 0 auto;
-			margin: 40px;
-		}
-	</style>
+	<link rel="stylesheet" href="style.css">
+	<link type="image/x-icon" href="images/icon.png" rel="shortcut icon">
+	<link type="Image/x-icon" href="res/favicon.png" rel="icon">
 </head>
+
 <body>
-	<div class="content">
-		<center>
-			<img src="images/resume.png">
-		</center>
+	<div class="resume-container">
+		<div id="title">
+			<div id="avatar"></div>
+			<div id="title-text">
+				<h1>АРТУР КОЖЕМЯКИН</h1>
+				<h2>ANDROID DEVELOPER</h2>
+			</div>
+		</div>
+		<div id="containers">
+			<div class="container left">
+				<div>
+					<h3>ОБО МНЕ</h3>
+					<p>22 года. Полный день. Удалённая работа в приоритете.</p>
+				</div>
+				<div>
+					<h3>КОНТАКТЫ</h3>
+					<p>
+						Тел, WhatsApp: <a href="tel:+79852603374">+7-985-260-33-74</a> <br>
+						Email: <a href="mailto:trable228@icloud.com">trable228@icloud.com</a> <br>
+						Москва, Россия <br>
+						<br>
+						Telegram: <a href="https://t.me/landfathich" target="_blank">@landfathich</a> <br>
+						Github: <a href="https://github.com/Picalfer" target="_blank">Picalfer</a> <br>
+						Twitter: <a href="https://twitter.com/landfathich" target="_blank">@landfathich</a> <br>
+					</p>
+				</div>
+				<div>
+					<h3>НАВЫКИ</h3>
+					<ul>
+						<li>Kotlin, Java</li>
+						<li>Android SDK</li>
+						<li>ООП</li>
+						<li>Android Studio, Git, Figma, Bitrix24</li>
+						<li>MVVM, MVP</li>
+						<li>Firebase, Room</li>
+						<li>Dagger Hilt</li>
+						<li>Clean Architecture, SOLID, DRY, KISS</li>
+						<li>Navigation Component</li>
+						<li>Coroutines, RxJava</li>
+						<li>OkHttp, Retrofit2</li>
+					</ul>
+				</div>
+				<div>
+					<h3>ДОПОЛНИТЕЛЬНЫЕ НАВЫКИ</h3>
+					<ul>
+						<li>Python, C++, C#, XML, HTML, CSS, JS, Lua</li>
+						<li>Visual Studio, Unity 3D</li>
+					</ul>
+				</div>
+				<div>
+					<h3>ЯЗЫКИ</h3>
+					<ul>
+						<li>Русский - Носитель</li>
+						<li>Английский - Разговорный</li>
+						<li>Японский - Начальный</li>
+					</ul>
+				</div>
+				<div>
+					<h3>ОСНОВНЫЕ ИНТЕРЕСЫ</h3>
+					<ul>
+						<li>BMX</li>
+						<li>Разработка чего-то интересного</li>
+						<li>Тренировки на свежем воздухе</li>
+						<li>Иностранные языки</li>
+						<li>Музыка</li>
+					</ul>
+				</div>
+			</div>
+			<div class="container right">
+				<div>
+					<h3>ОПЫТ</h3>
+					<div class="work-item">
+						<p class="job">ANDROID DEVELOPER</p>
+						<a class="company-link" href="https://liknot.ru/" target="_blank">
+							<img class="icon liknot" src="res/liknot.ico">
+							<p class="company">Liknot</p>
+							<img class="icon-link" src="res/link.png">
+						</a>
+						<p class="dates">Август 2023 – Март 2024 (8 месяцев), проект закрылся по бизнесс причинам</p>
+						<p>Я имел удовольствие работать в качестве андроид разработчика в компании Liknot, где я был
+							частью команды, состоящей из трех разработчиков. Наша команда специализировалась на
+							создании приложений в области <b>gamble игр</b> и <b>финансовых технологий</b>.
+							<br><br>
+							В рамках проектов мы тесно взаимодействовали с <b>WebView</b> и другими современными
+							подходами в
+							разработке мобильных приложений. Мы создавали приложения на <b>Java</b>,
+							<b>Kotlin</b> и использовали <b>Jetpack Compose</b>.
+						</p>
+					</div>
+
+					<div class="work-item">
+						<p class="job">ANDROID MENTOR</p>
+						<a class="company-link" href="https://skillfactory.ru/" target="_blank">
+							<img class="icon skillfactory" src="res/skillfactory.ico">
+							<p class="company">SkillFactory</p>
+							<img class="icon-link" src="res/link.png">
+						</a>
+						<p class="dates">Апрель 2023 – продолжаю (1 год)</p>
+						<p>В компании SkillFactory я работаю Android Mentor'ом в команде с другими разработчиками. Моя
+							текущая роль включает поддержку студентов в прохождении курсов, помощь в решении возникающих
+							вопросов, проведение консультаций, проверка домашних заданий по проектам и ревью кода.
+						</p>
+					</div>
+
+					<div class="work-item">
+						<p class="job">ANDROID DEVELOPER</p>
+						<img class="icon skillfactory" src="res/np.png">
+						<p class="company">Народная почта</p>
+						<p class="dates">Сентябрь – декабрь 2022 (4 месяца)</p>
+						<p>
+							Поддерживание работы и развитие android приложения с <b>WebView</b>.
+						</p>
+					</div>
+
+					<div class="work-item">
+						<p class="job rus-job"><b>ПРЕПОДАВАТЕЛЬ, КУРАТОР</b></p>
+						<a class="company-link" href="https://hwschool.online/" target="_blank">
+							<img class="icon skillfactory" src="res/hw.png">
+							<p class="company">Hello World</p>
+							<img class="icon-link" src="res/link.png">
+						</a>
+						<p class="dates">Март 2021 – продолжаю (3 года)</p>
+						<p>
+							Обучаю детей (9-16 лет) программированию на языках ​​C++, C#(Unity3d), Python, Lua(Roblox
+							Studio) и дизайну в Figma.
+						</p>
+						<b>Кураторские задачи</b>
+						<ul>
+							<li>Ежедневно слежу за работой подопечных преподавателей.
+							</li>
+							<li>Работа над показателями преподавателей, обучение, тренировки.
+							</li>
+							<li>Выполнение ежедневных, еженедельных и ежемесячных задач по графику</li>
+						</ul>
+					</div>
+				</div>
+				<div>
+					<h3>ПРОЕКТЫ</h3>
+					<div class="projects-container">
+						<div class="project">
+							<p class="project-name">Tetris</p>
+							<hr>
+							<p class="skills">
+								Kotlin, Java, MVP, Custom View, App Preferences, Figma, DRY.
+							</p>
+							<a class="git-link" href="https://github.com/Picalfer/Tetris" target="_blank">
+								GitHub
+							</a>
+						</div>
+						<div class="project">
+							<p class="project-name">Notes</p>
+							<hr>
+							<p class="skills">
+								Kotlin, MVVM, Firebase, Room, Navigation Component, App Preference, SOLID, KISS.
+							</p>
+							<a class="git-link" href="https://github.com/Picalfer/Notes_mvvm" target="_blank">
+								GitHub
+							</a>
+						</div>
+						<div class="project">
+							<p class="project-name">Dental Tech. Hand Book</p>
+							<hr>
+							<p class="skills">
+								Fragments, RecyclerView, Figma.
+								<br><br>
+								Справочник для зубных техников по изготовлению протезов.
+							</p>
+							<a class="git-link" href="https://github.com/Picalfer/DentalTechnicianHandBook"
+								target="_blank">
+								GitHub
+							</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<h3>ОБРАЗОВАНИЕ</h3>
+					<div class="education">
+						<div class="divide-h">
+							<p>Ортопедическая стоматология, колледж МИИТ.</p>
+							<p>2019 - 2022</p>
+						</div>
+						<div class="divide-h">
+							<p>Гимназия №1506.</p>
+							<p>2008 - 2019</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
+
+	<div class="color-buttons">
+		<div class="color-button" id="button1"></div>
+		<div class="color-button" id="button2"></div>
+		<div class="color-button" id="button3"></div>
+		<div class="color-button" id="button4"></div>
+	</div>
+
+	<script src="script.js"></script>
 </body>
+
 </html>
