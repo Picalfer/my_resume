@@ -55,6 +55,26 @@ body {
     text-align: left;
 }
 
+#downloadButton {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: none;
+    width: 100%;
+    padding: 15px;
+    background-color: #fff7e8;
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: black;
+    font-size: 1.2vw;
+    cursor: pointer;
+}
+
+#downloadButton:hover {
+    background-color: #ffedcc;
+}
+
 h1,
 h2 {
     margin: 0;
@@ -351,5 +371,10 @@ li {
     .project {
         width: 80%;
         margin: 10px auto;
+    }
+
+    #downloadButton {
+        font-size: 4vw;
+        height: 8vh;
     }
 }

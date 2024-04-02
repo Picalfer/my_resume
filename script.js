@@ -26,3 +26,14 @@ function changeColorPalette(bodyColor, titleDecorationColor, leftAreaColor, head
         headings[i].style.color = headingColor;
     }
 }
+
+var downloadButton = document.getElementById('downloadButton');
+
+downloadButton.addEventListener('click', function () {
+    var downloadLink = document.createElement('a');
+    downloadLink.href = 'res/resume.png';
+    downloadLink.download = 'Артур Кожемякин.jpg';
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+    document.body.removeChild(downloadLink);
+});
