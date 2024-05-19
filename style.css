@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap');
 
-* {}
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -128,6 +126,7 @@ h2 {
 
 li {
     margin-top: 4px;
+    list-style-type: square;
 }
 
 .title-underscore {
@@ -372,12 +371,16 @@ li {
     transition: 0.5s;
 }
 
+.book {
+    color: burlywood;
+}
+
 @media screen and (max-width: 1400px) {
     .work-item {
         width: 84%;
         margin: 10px auto;
     }
-    
+
     .projects-container {
         flex-direction: column;
     }
