@@ -412,6 +412,9 @@ li {
 
     .left {
         overflow: hidden;
+        padding: 5px;
+        width: 35%;
+        padding-top: 15px;
     }
 
     #title {
@@ -456,5 +459,9 @@ li {
     #downloadButton {
         font-size: 4vw;
         height: 8vh;
+    }
+
+    .left li {
+        margin-left: -20%;
     }
 }
